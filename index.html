@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soccer Blog</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .lethal-players {
+            background: linear-gradient(180deg,#1e90ff 0%, #1971c2 100%);
+            color: #fff;
+            padding: 1.25rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+        }
+        .lethal-players h2 { margin-top: 0; }
+        .lethal-players ul { margin: 0.5rem 0 0 1.25rem; }
+    </style>
 </head>
 <body>
     <header>
@@ -23,6 +35,16 @@
         <section class="hero">
             <h2>Welcome to the Soccer Blog</h2>
             <p>Your source for latest soccer news and updates</p>
+        </section>
+
+        <section class="lethal-players" aria-labelledby="lethal-title">
+            <h2 id="lethal-title">Lethal Players</h2>
+            <p>These players are known for deadly finishing, clinical passing, and match-winning performances.</p>
+            <ul>
+                <li><strong>Player A</strong> — Clinical striker with lethal finishing inside the box.</li>
+                <li><strong>Player B</strong> — Creative forward with deadly long-range shots.</li>
+                <li><strong>Player C</strong> — Playmaker who creates high-quality chances.</li>
+            </ul>
         </section>
 
         <section class="posts">
