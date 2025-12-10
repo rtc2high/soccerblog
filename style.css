@@ -24,6 +24,7 @@ header h1 {
     text-align: center;
     margin-bottom: 1rem;
     font-size: 2.5rem;
+    position: relative;
 }
 
 nav ul {
@@ -35,7 +36,7 @@ nav ul {
 }
 
 nav a {
-    color: white;
+    color: rgb(198, 133, 133);
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease;
@@ -121,7 +122,24 @@ main {
 }
 
 .read-more:hover {
-    background-color: #2d5a3d;
+    background-color: #00280e;
+}
+.post h3 {
+    color: #5c0000;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}   
+.post p {
+    margin-bottom: 1rem;
+}
+.post h2 {
+    color: #5c0000;
+    margin-bottom: 0.5rem;
+    font-size: 1.8rem;
+}
+.post:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 7px 20px rgba(0, 0, 0, 0.15);
 }
 
 /* Footer */
